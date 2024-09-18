@@ -1,0 +1,127 @@
+.page{
+    width: 1440px;
+    height: 1024px;
+    top: -513px;
+    left: -125px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-card{
+    width: 643px;
+    height: 380px;
+    top: -513px;
+    left: -125px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+}
+
+.photo-section{
+    width: 260px;
+    height: 380px;
+    top: 322px;
+    left: 399px;
+    gap: 0px;
+    opacity: 0px;  
+    border-right: solid 2px white;
+}
+
+.personal-data{
+    width: 383px;
+    height: 380px;
+    top: 322px;
+    left: 659px;
+    gap: 0px;
+    opacity: 0px;  
+    display: flex;  
+    flex-direction: column;
+}
+
+.name-data{
+    width: 383px;
+    height: 190px;
+    /* padding: 44px 206px 35px 19px; okomentowane bo chce o nie zapytac*/
+    gap: 0px;
+    border-radius: 0px 10px 0px 0px;
+    opacity: 0px; 
+    background-color: #192028;
+    border-bottom: solid 1px white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-data{
+    width: 363px;
+    height: 132px;
+    top: 190px;
+    /* padding: 29px 0px 29px 20px; okomentowane bo chce o nie zapytac*/
+    border-radius: 0px 0px 10px 0px;
+    opacity: 0px;
+    background-color: #2B3944;
+    font-size: 20px;
+    line-height: 23.44px;
+    border-top: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    padding: 29px 0px 27px 20px;
+    gap: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.name-surname{
+    margin: 44px 0px 0px 19px;
+    gap: 4px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.name{
+    font-size: 25px;
+    line-height: 29.3px;
+    width: 147px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.surname{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.16px;
+    color: #FFFFFF;
+}
+
+.work{
+    width: 157px;
+    height: 29px;
+    opacity: 0px;
+    font-size: 25px;
+    line-height: 29.3px;
+    margin: 0px 0px 19px;
+    color: #6487A1; 
+    font-family: Roboto;
+    text-align: left;   
+    font-weight: 400;
+    padding: 19px 206px 0px 19px;
+}
+
+.text{
+    font-family: Roboto;
+    text-align: left;   
+}
+
+/*podkreslenie tylko do konca tekstu
+ .street-data, .email-data, .phone-data{
+    border-bottom: solid 1px white;
+} */
+
+.street, .email, .phone{
+    border-bottom: solid 1px white;
+}
