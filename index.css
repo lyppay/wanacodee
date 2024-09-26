@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100vh;
+    border: solid 2px black;
+}
+
+.main-aside-wrapper {
+    display: flex;
+    border: solid 1px black;
+    justify-content: space-around;
+    align-items: end;
+    height: 90%;
+}
