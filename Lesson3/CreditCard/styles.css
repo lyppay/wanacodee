@@ -1,0 +1,26 @@
+.credit-card {
+    border: 1px solid black;
+    padding: 10%;
+    margin: 5% 2%;
+    border-radius: 10px;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.number{
+    padding-top: 20%;
+}
+
+.information-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.credit-card-front .information-wrapper ~ p {
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
